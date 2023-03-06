@@ -8,5 +8,5 @@ with dw_faturamento_model as(
             on pur.product_id = pro.id
     group by 1
     order by 2 desc    
-),
+)
 select * from dw_faturamento_model

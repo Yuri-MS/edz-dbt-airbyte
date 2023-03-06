@@ -8,5 +8,5 @@ with dw_faturamento_ano as(
             on pur.product_id = ap.id
     group by 1
     order by 1 desc    
-),
+)
 select * from dw_faturamento_ano
